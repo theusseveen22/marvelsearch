@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.input-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.input-items input {
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.input-items button {
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 5px;
+    color: rgb(126, 55, 55);
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+
+}
+
+.card-link-items h1 {
+    border: 1px solid rgb(148, 100, 60);
+}
+
+.card-link-items h1:hover {
+    background-color: rgba(197, 167, 167, 0.521);
+    cursor: pointer;
+    color: black;
+}
+
+
+.card-link-items {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    font-size: medium;
+}
+
+.card {
+    width: 100vh;
+    width: auto;
+    padding: 20px;
+    margin: 5px;
+}
+
+.ch-items {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: smaller;
+    background-color:rgb(58, 36, 36);
+    overflow-y: scroll;
+}
+
+.ch-items img {
+    width: 300px;
+    height: 300px;
+}
